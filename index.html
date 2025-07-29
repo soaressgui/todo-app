@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do Application</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>To-do App</h1>
+    <div class="wrapper">
+      <form action="">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="Escreva algo e aperte enter para adicionar"
+          autocomplete="off"
+        />
+        <button id="add-button">Adicionar</button>
+      </form>
+      <ul id="todo-list">
+        <li id="todo">
+          <input type="checkbox" id="todo-1" />
+          <label class="custom-checkbox" for="todo-1">
+            <i class="fa-solid fa-check"></i>
+          </label>
+          <label for="todo-1" class="todo-text">
+            Projetos com HTML, CSS e JavaScript
+          </label>
+          <button class="delete-button">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+        </li>
+          <li id="todo">
+          <input type="checkbox" id="todo-2" />
+          <label class="custom-checkbox" for="todo-2">
+            <i class="fa-solid fa-check"></i>
+          </label>
+          <label for="todo-2" class="todo-text">
+            Projetos com HTML, CSS e JavaScript
+          </label>
+          <button class="delete-button">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
