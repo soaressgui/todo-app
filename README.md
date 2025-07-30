@@ -3,6 +3,7 @@
 Uma aplicação simples de lista de tarefas feita com **HTML**, **CSS** e **JavaScript**, com salvamento local (localStorage) e um visual moderno e responsivo.
 
 ![Todo App](https://i.imgur.com/iX4EWKA.png)
+![Todo App Mobile](https://i.imgur.com/Ki1rFDr.png)
 ---
 
 ## ✨ Funcionalidades
