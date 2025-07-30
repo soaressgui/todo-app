@@ -152,6 +152,7 @@ input[type="checkbox"] {
         position: unset;
         width: 100%;
         padding: 15px;
+        margin-top: 20px;
         height: auto;
     }
     h1{
